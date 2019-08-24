@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Gagenden-----个人学习网站</title>
-    <link>http://localhost:1313/post/</link>
-    <description>Recent content in Posts on Gagenden-----个人学习网站</description>
+    <title>Posts on Gagenden--个人学习网站</title>
+    <link>http://gagenden.top/post/</link>
+    <description>Recent content in Posts on Gagenden--个人学习网站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 24 Aug 2019 17:51:21 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://gagenden.top/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>文档流</title>
-      <link>http://localhost:1313/post/%E6%96%87%E6%A1%A3%E6%B5%81/</link>
+      <link>http://gagenden.top/post/%E6%96%87%E6%A1%A3%E6%B5%81/</link>
       <pubDate>Sat, 24 Aug 2019 17:51:21 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E6%96%87%E6%A1%A3%E6%B5%81/</guid>
+      <guid>http://gagenden.top/post/%E6%96%87%E6%A1%A3%E6%B5%81/</guid>
       <description>文档流 1.脱离文档流 浮动元素会脱离文档流，也就是说浮动元素会飘在块级元素上 2.流动方向 inline 元素从左到右，到达最右边才会换行。 block 元素从上到下，每</description>
     </item>
     
     <item>
       <title>Html First Day</title>
-      <link>http://localhost:1313/post/html-first-day/</link>
+      <link>http://gagenden.top/post/html-first-day/</link>
       <pubDate>Sat, 24 Aug 2019 17:34:21 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/html-first-day/</guid>
+      <guid>http://gagenden.top/post/html-first-day/</guid>
       <description>《HTML 入门笔记 1》 i.HTML 是由蒂姆·伯纳斯－李（Tim Berners-Lee）创建。 ii.HTML 起手应该先写&amp;lt;!DOCTYPE html&amp;gt; 快捷键是!+Tab</description>
     </item>
     

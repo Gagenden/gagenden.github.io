@@ -1,39 +1,39 @@
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://gagenden.top/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://gagenden.top/</loc>
     <lastmod>2019-08-24T17:51:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>http://gagenden.top/post/</loc>
     <lastmod>2019-08-24T17:51:21+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/%E6%96%87%E6%A1%A3%E6%B5%81/</loc>
+    <loc>http://gagenden.top/post/%E6%96%87%E6%A1%A3%E6%B5%81/</loc>
     <lastmod>2019-08-24T17:51:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/html-first-day/</loc>
+    <loc>http://gagenden.top/post/html-first-day/</loc>
     <lastmod>2019-08-24T17:34:21+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://gagenden.top/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://gagenden.top/tags/</loc>
     <priority>0</priority>
   </url>
   
