@@ -3,8 +3,28 @@
   
   <url>
     <loc>http://gagenden.top/</loc>
-    <lastmod>2019-08-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://gagenden.top/post/</loc>
+    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://gagenden.top/post/css-float%E5%B8%83%E5%B1%80/</loc>
+    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://gagenden.top/post/%E6%95%A3%E8%AE%B001/</loc>
+    <lastmod>2019-08-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -12,12 +32,6 @@
     <lastmod>2019-08-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://gagenden.top/post/</loc>
-    <lastmod>2019-08-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
