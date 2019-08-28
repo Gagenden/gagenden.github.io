@@ -40,6 +40,12 @@
 &lt;li&gt;浮动会脱离文档流。（浮动元素会漂在块级元素上）&lt;/li&gt;
 &lt;li&gt;绝对定位也会脱离文档流。&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h2 id=&#34;平均布局&#34;&gt;平均布局&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;实现平均布局的时候，要点就是给所有的子元素添加一个父 div,给该 div 设置负 margin 就好了。&lt;/li&gt;
+&lt;/ol&gt;
 </description>
       
     </item>
