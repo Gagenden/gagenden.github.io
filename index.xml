@@ -6,10 +6,54 @@
     <description>Recent content on Gagenden--个人学习网站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 28 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://gagenden.top/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>flex布局</title>
+      <link>http://gagenden.top/post/flex%E5%B8%83%E5%B1%80/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gagenden.top/post/flex%E5%B8%83%E5%B1%80/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;flex-布局&#34;&gt;flex 布局&lt;/h1&gt;
+
+&lt;h2 id=&#34;container-容器-里的样式以及属性&#34;&gt;container（容器）里的样式以及属性&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;让一个元素变成 flex 容器：&lt;br&gt;
+&lt;code&gt;display: flex/inline-flex;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;改变 items 的流动方向（主轴方向）&lt;br&gt;
+&lt;code&gt;flex-direction: column/row(默认横着)/row-reverse/column-reverse;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;改变折行&lt;br&gt;
+&lt;code&gt;flex-wrap: no-wrap/wrap/wrap-reverse;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;主轴的对齐方式&lt;br&gt;
+&lt;code&gt;justify-content: flex-start/flex-end/center/space-between/space-around/space-evenly;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;次轴&lt;br&gt;
+&lt;code&gt;align-items: center/flex-end/flex-start;&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;items-子元素-项目-的样式以及属性&#34;&gt;items(子元素、项目)的样式以及属性&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;item 的排列顺序&lt;br&gt;
+&lt;code&gt;order: number(越小的排越前);&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;如何控制长胖(分配多余的空间，分配几份给 item)&lt;br&gt;
+&lt;code&gt;flex-grow: 1／数字；&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;控制如何变瘦&lt;br&gt;
+&lt;code&gt;flex-shrink: 数字（默认是1,0是防止变瘦）&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;推荐小游戏&#34;&gt;推荐小游戏&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://flexboxfroggy.com/&#34;&gt;青蛙游戏&lt;/a&gt;&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>css-float布局</title>
@@ -70,6 +114,11 @@
 &lt;pre&gt;&lt;code&gt;margin-left: auto;
 margin-right: auto;
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;为了防止图片下面有小缝隙，应该给 img 添加以下的样式：
+&lt;code&gt;vertical-align: middle;&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;当页面尺寸缩小或者放大时，布局的宽高会出现小数。&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
       
