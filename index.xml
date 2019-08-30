@@ -6,10 +6,82 @@
     <description>Recent content on Gagenden--个人学习网站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Aug 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://gagenden.top/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>使用GitHub Pages预览HTML</title>
+      <link>http://gagenden.top/post/%E4%BD%BF%E7%94%A8github-pages%E9%A2%84%E8%A7%88html/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gagenden.top/post/%E4%BD%BF%E7%94%A8github-pages%E9%A2%84%E8%A7%88html/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;使用-github-pages-预览-html&#34;&gt;使用 GitHub Pages 预览 HTML&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;进入一个仓库，点击 Settings&lt;/li&gt;
+&lt;li&gt;找到 Github Pages,将 None 选为 master branch&lt;/li&gt;
+&lt;li&gt;刷新页面，重新来到 Github Pages，将会看到一个链接&lt;/li&gt;
+&lt;li&gt;点击链接即可预览 HTML。如果不行就在链接后面加上&lt;code&gt;/html文件名.html&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>使用hugo搭建个人博客</title>
+      <link>http://gagenden.top/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gagenden.top/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;使用-hugo-搭建个人博客&#34;&gt;使用 hugo 搭建个人博客&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;第一步：Windows 下安装 hugo。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34;&gt;去 Hugo releases 页面&lt;/a&gt;下载 hugo_xxx_windows-64bit.zip。（我自己使用的是 v0.56.3）&lt;/li&gt;
+&lt;li&gt;解压，把 hugo.exe 放到某个路径（如：D:Software\hugo\hugo.exe）。&lt;/li&gt;
+&lt;li&gt;将某个路径（如：D:Software\hugo）加到 PATH。&lt;/li&gt;
+&lt;li&gt;重启终端，输入命令：hugo version 查看 hugo 版本。&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;开始搭建博客。参考&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo 官网-Quick Start&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;创建一个新项目：&lt;code&gt;hugo new site 目录（如：gagenden.github.io-creator）&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;进入新建的项目：&lt;code&gt;cd 目录（如：gagenden.github.io-creator）&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;初始化： &lt;code&gt;git init&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;添加主题：&lt;code&gt;git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;配置主题： &lt;code&gt;echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;添加博客： &lt;code&gt;hugo new posts/文章名字.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;运行： &lt;code&gt;hugo server -D&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;生成 public 目录：&lt;code&gt;hugo&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;上传 github&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;将 public 目录添加到.gitignore 中&lt;/li&gt;
+&lt;li&gt;切换到 public 目录&lt;/li&gt;
+&lt;li&gt;git init&lt;/li&gt;
+&lt;li&gt;git add&lt;/li&gt;
+&lt;li&gt;git commit -v&lt;/li&gt;
+&lt;li&gt;上传到 github 的那两句话&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;-&lt;/p&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>flex布局</title>

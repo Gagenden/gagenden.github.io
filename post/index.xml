@@ -6,10 +6,28 @@
     <description>Recent content in Posts on Gagenden--个人学习网站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://gagenden.top/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>使用GitHub Pages预览HTML</title>
+      <link>http://gagenden.top/post/%E4%BD%BF%E7%94%A8github-pages%E9%A2%84%E8%A7%88html/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gagenden.top/post/%E4%BD%BF%E7%94%A8github-pages%E9%A2%84%E8%A7%88html/</guid>
+      <description>使用 GitHub Pages 预览 HTML 进入一个仓库，点击 Settings 找到 Github Pages,将 None 选为 master branch 刷新页面，重新来到 Github Pages，将会看到一个链接 点击链接即可预览 HTML。如</description>
+    </item>
+    
+    <item>
+      <title>使用hugo搭建个人博客</title>
+      <link>http://gagenden.top/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gagenden.top/post/%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>使用 hugo 搭建个人博客 第一步：Windows 下安装 hugo。 去 Hugo releases 页面下载 hugo_xxx_windows-64bit.zip。（我自己使用的是</description>
+    </item>
     
     <item>
       <title>flex布局</title>
