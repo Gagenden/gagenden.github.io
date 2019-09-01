@@ -6,10 +6,75 @@
     <description>Recent content on Gagenden--个人学习网站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 30 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://gagenden.top/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>浅析URL</title>
+      <link>http://gagenden.top/post/%E6%B5%85%E6%9E%90url/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gagenden.top/post/%E6%B5%85%E6%9E%90url/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;浅析-url&#34;&gt;浅析 URL&lt;/h1&gt;
+
+&lt;h2 id=&#34;url-的组成&#34;&gt;URL 的组成&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;协议&lt;/li&gt;
+&lt;li&gt;域名或者 IP&lt;/li&gt;
+&lt;li&gt;端口号（http 默认端口是 80，https 默认端口是 443，ftp 默认端口是 21）&lt;/li&gt;
+&lt;li&gt;路径&lt;/li&gt;
+&lt;li&gt;查询字符串&lt;/li&gt;
+&lt;li&gt;锚点&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;dns-的作用&#34;&gt;DNS 的作用&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;DNS 让 IP 和域名对应起来&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;nslookup&#34;&gt;nslookup&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;nslookup 域名&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ip-的作用&#34;&gt;IP 的作用&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;定位一台设备。&lt;/li&gt;
+&lt;li&gt;封装数据报文。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;ping-的命令使用&#34;&gt;ping 的命令使用&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ping IP 地址&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;域名&#34;&gt;域名&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Domain Name&lt;/li&gt;
+&lt;li&gt;是由一串用点分隔的字符组成的互联网上某一台计算机或计算机组的名称，用于在数据传输时标识计算机的电子方位。域名可以说是一个 IP 地址的代称。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;域名分类&#34;&gt;域名分类&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;顶级域名&lt;/li&gt;
+&lt;li&gt;子域名&lt;/li&gt;
+&lt;li&gt;国际化域名&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>使用GitHub Pages预览HTML</title>

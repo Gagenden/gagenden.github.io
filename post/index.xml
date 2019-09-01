@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Gagenden--个人学习网站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 30 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://gagenden.top/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>浅析URL</title>
+      <link>http://gagenden.top/post/%E6%B5%85%E6%9E%90url/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gagenden.top/post/%E6%B5%85%E6%9E%90url/</guid>
+      <description>浅析 URL URL 的组成 协议 域名或者 IP 端口号（http 默认端口是 80，https 默认端口是 443，ftp 默认端口是 21） 路径 查询字符串 锚点 DNS 的作用 DNS 让</description>
+    </item>
     
     <item>
       <title>使用GitHub Pages预览HTML</title>
