@@ -17,7 +17,7 @@
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>http://gagenden.top/post/%E6%B5%85%E6%9E%90url/</guid>
-      <description>浅析 URL URL 的组成 协议 域名或者 IP 端口号（http 默认端口是 80，https 默认端口是 443，ftp 默认端口是 21） 路径 查询字符串 锚点 DNS 的作用 DNS 让</description>
+      <description>浅析 URL URL 指的是统一资源定位符（Uniform Resource Locator）。URL 无非就是一个给定的独特资源在 Web 上的地址。理论上说，每个有效的 URL 都指向一</description>
     </item>
     
     <item>
