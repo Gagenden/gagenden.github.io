@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Gagenden--个人学习网站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://gagenden.top/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JavaScript</title>
+      <link>http://gagenden.top/post/javascript%E7%AC%AC%E4%B8%80%E8%AF%BE/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gagenden.top/post/javascript%E7%AC%AC%E4%B8%80%E8%AF%BE/</guid>
+      <description>JavaScript诞生 它最初由Netscape的Brendan Eich设计。 1996年，Ecma国际以JavaScript为基础制定了EC</description>
+    </item>
     
     <item>
       <title>浅析URL</title>
