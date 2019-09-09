@@ -6,10 +6,94 @@
     <description>Recent content on Gagenden--个人学习网站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 06 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://gagenden.top/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CSS 知识总结</title>
+      <link>http://gagenden.top/post/css%E6%9C%89%E6%84%9F/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gagenden.top/post/css%E6%9C%89%E6%84%9F/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;css-知识总结&#34;&gt;CSS 知识总结&lt;/h1&gt;
+
+&lt;h2 id=&#34;浏览器的渲染原理&#34;&gt;浏览器的渲染原理&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;根据 HTML 构建 HTML 树（构建 DOM）&lt;/li&gt;
+&lt;li&gt;根据 CSS 构建 CSS 树（CSSOM）&lt;/li&gt;
+&lt;li&gt;将两棵树合并为渲染树（render tree）&lt;/li&gt;
+&lt;li&gt;Layout 布局（文档流，盒模型，计算大小，位置）&lt;/li&gt;
+&lt;li&gt;paint 绘制（绘制颜色、背景等）&lt;/li&gt;
+&lt;li&gt;composite（根据层叠关系展示页面）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;动画-transition-过渡-https-developer-mozilla-org-zh-cn-docs-web-css-transition&#34;&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition&#34;&gt;动画 transition（过渡）&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;transition 属性是 transition-property（指定应用过渡属性的名称），transition-duration（多少时间内完成过渡），transition-timing-function（变化速度 ease | ease-in | ease-out | ease-in-out | linear） 和 transition-delay(延迟多少时间开始过渡) 的一个简写属性。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;动画-animation-https-developer-mozilla-org-zh-cn-docs-web-css-animation&#34;&gt;&lt;a href=&#34;https://developer.mozilla.org/zh-CN/docs/Web/CSS/animation&#34;&gt;动画 animation&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;animation 属性是 animation-name（动画名称），animation-duration(时长), animation-timing-function(过渡方式)，animation-delay（延迟），animation-iteration-count（动画在结束前运行的次数），animation-direction（方向），animation-fill-mode（填充方式） 和 animation-play-state（是否赞停） 属性的一个简写属性形式&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;使用@keyframes 的语法声明 animation-name&lt;br&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;语法一&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@keyframes animation-name {
+    from{
+        .....
+    }
+    to {
+        ....
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;语法二&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@keyframes animation-name {
+    0 {
+        ....
+    }
+    15% {
+        ....
+    }
+    50% {
+        ....
+    }
+    100% {
+        .....
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;取值&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;animation-duration(时长): 单位是 s 和 ms&lt;/li&gt;
+&lt;li&gt;animation-timing-function(过渡方式)：ease |ease-in | ease-out |linear&lt;/li&gt;
+&lt;li&gt;animation-iteration-count（动画在结束前运行的次数）: 数字 | infinite&lt;/li&gt;
+&lt;li&gt;animation-direction（方向）: reverse |alternate | alternate-reverse&lt;/li&gt;
+&lt;li&gt;animation-fill-mode（填充方式）: none | forwards | backwards | both&lt;/li&gt;
+&lt;li&gt;animation-play-state（是否赞停）: paused | running&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>JavaScript</title>
