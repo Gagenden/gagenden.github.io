@@ -2,22 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://gagenden.top/post/css%E6%9C%89%E6%84%9F/</loc>
-    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <loc>http://gagenden.top/</loc>
+    <lastmod>2019-09-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://gagenden.top/post/js%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</loc>
+    <lastmod>2019-09-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://gagenden.top/</loc>
-    <lastmod>2019-09-09T00:00:00+00:00</lastmod>
+    <loc>http://gagenden.top/post/</loc>
+    <lastmod>2019-09-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://gagenden.top/post/</loc>
+    <loc>http://gagenden.top/post/css%E6%9C%89%E6%84%9F/</loc>
     <lastmod>2019-09-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
