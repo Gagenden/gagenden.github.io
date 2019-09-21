@@ -6,10 +6,91 @@
     <description>Recent content on Gagenden--个人学习网站</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 14 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Sep 2019 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://gagenden.top/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JS对象基础用法</title>
+      <link>http://gagenden.top/post/js%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gagenden.top/post/js%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</guid>
+      
+        <description>
+
+&lt;h1 id=&#34;js-对象-基本用法-增删改查&#34;&gt;JS 对象-基本用法（增删改查）&lt;/h1&gt;
+
+&lt;h3 id=&#34;对象&#34;&gt;对象&lt;/h3&gt;
+
+&lt;p&gt;对象是一组&amp;rdquo;键值对(key-value)&amp;ldquo;的集合，也是无序的复合数据集合。&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;如何声明对象：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;let obj = {name: &#39;&#39;,age: &#39;&#39;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;pre&gt;&lt;code&gt;    let obj = new Object({
+        name: &#39;&#39;,
+        age: &#39;&#39;
+    })
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;注意：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;属性名（key）是字符串。&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;如何用变量做属性名&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;let p1 = &#39;name&#39;;
+let obj = {[p1]:&#39;值&#39;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;如何删除对象的属性&#34;&gt;如何删除对象的属性&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;delete obj.xxx
+delete obj[&#39;xxx&#39;]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;如何查看对象的属性&#34;&gt;如何查看对象的属性&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;中括号语法：obj[&amp;lsquo;key&amp;rsquo;]&lt;/li&gt;
+&lt;li&gt;点语法：obj.key&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;查看自身所有属性 Object.keys(obj)&lt;/li&gt;
+&lt;li&gt;查看自身以及共有属性 console.dir(obj)&lt;/li&gt;
+&lt;li&gt;判断一个属性是否存在 &lt;code&gt;属性 in obj&lt;/code&gt;。 这个方法不能判断是否为对象自身的属性。&lt;/li&gt;
+&lt;li&gt;判断一个属性是自身的还是共有的 obj.hasOwnProperty(&amp;ldquo;某个属性&amp;rdquo;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;如何修改或增加对象的属性&#34;&gt;如何修改或增加对象的属性&lt;/h3&gt;
+
+&lt;p&gt;中括号语法：obj[&amp;lsquo;key&amp;rsquo;] = &amp;lsquo;value&amp;rsquo; &lt;br&gt;
+点语法：obj.key = &amp;lsquo;value&amp;rsquo;&lt;/p&gt;
+
+&lt;h3 id=&#34;name-in-obj-和-obj-hasownproperty-name-的区别&#34;&gt;&amp;ldquo;name&amp;rdquo; in obj 和 obj.hasOwnProperty(&amp;ldquo;name&amp;rdquo;)的区别&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;前者只能判断 obj 是否有‘name’属性，并不会知道改属性是自身的还是共有的。&lt;/li&gt;
+&lt;li&gt;后者可以判断出该属性是否是自身的属性&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
     
     <item>
       <title>JS基础语法</title>

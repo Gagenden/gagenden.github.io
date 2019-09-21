@@ -3,7 +3,20 @@
   
   <url>
     <loc>http://gagenden.top/</loc>
-    <lastmod>2019-09-14T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://gagenden.top/post/js%E5%AF%B9%E8%B1%A1%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://gagenden.top/post/</loc>
+    <lastmod>2019-09-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -12,12 +25,6 @@
     <lastmod>2019-09-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://gagenden.top/post/</loc>
-    <lastmod>2019-09-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
